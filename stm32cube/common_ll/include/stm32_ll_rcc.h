@@ -48,4 +48,6 @@
 #include <stm32wbxx_ll_rcc.h>
 #elif defined(CONFIG_SOC_SERIES_STM32WLX)
 #include <stm32wlxx_ll_rcc.h>
+#elif defined(CONFIG_SOC_SERIES_STM32mp13x)
+#include <stm32MP13xx_ll_rcc.h>
 #endif
